@@ -38,7 +38,7 @@ public static class AntigravitySettingsService
         }
         else
         {
-            settings.ProfileDirectories = new List<string> { @"C:\AntiGravityProfiles" };
+            settings.ProfileDirectories = new List<string> { @"C:\profiles_store\AntiGravityProfiles" };
         }
 
         return settings;
